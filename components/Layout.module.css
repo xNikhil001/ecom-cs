@@ -1,0 +1,19 @@
+.container{
+  min-height: calc(100vh - 120px) !important;
+  margin-top: 1rem;
+  padding: 15px;
+}
+
+.footer{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+@media only screen and (min-width: 480px){
+  .container{
+    
+  }
+}
